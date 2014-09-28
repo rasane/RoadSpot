@@ -1,0 +1,299 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "50",
+               "short_name" : "50",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Pacific Highway",
+               "short_name" : "A43",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Blacksmiths",
+               "short_name" : "Blacksmiths",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "New South Wales",
+               "short_name" : "NSW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "2281",
+               "short_name" : "2281",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "50 Pacific Highway, Blacksmiths NSW 2281, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -33.0815833,
+                  "lng" : 151.6484429
+               },
+               "southwest" : {
+                  "lat" : -33.0823879,
+                  "lng" : 151.6470916
+               }
+            },
+            "location" : {
+               "lat" : -33.0816037,
+               "lng" : 151.6483925
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -33.0806366197085,
+                  "lng" : 151.6491162302915
+               },
+               "southwest" : {
+                  "lat" : -33.0833345802915,
+                  "lng" : 151.6464182697085
+               }
+            }
+         },
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Blacksmiths",
+               "short_name" : "Blacksmiths",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "New South Wales",
+               "short_name" : "NSW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "2281",
+               "short_name" : "2281",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Blacksmiths NSW 2281, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -33.0626499,
+                  "lng" : 151.6603605
+               },
+               "southwest" : {
+                  "lat" : -33.0843688,
+                  "lng" : 151.6456775
+               }
+            },
+            "location" : {
+               "lat" : -33.079134,
+               "lng" : 151.6499502
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -33.0626499,
+                  "lng" : 151.6603605
+               },
+               "southwest" : {
+                  "lat" : -33.0843688,
+                  "lng" : 151.6456775
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2281",
+               "short_name" : "2281",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "New South Wales",
+               "short_name" : "NSW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "New South Wales 2281, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -33.0626499,
+                  "lng" : 151.6745317
+               },
+               "southwest" : {
+                  "lat" : -33.1687686,
+                  "lng" : 151.5973818
+               }
+            },
+            "location" : {
+               "lat" : -33.1170985,
+               "lng" : 151.6362736
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -33.0626499,
+                  "lng" : 151.6745317
+               },
+               "southwest" : {
+                  "lat" : -33.1687686,
+                  "lng" : 151.5973818
+               }
+            }
+         },
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Newcastle",
+               "short_name" : "Newcastle",
+               "types" : [ "colloquial_area", "locality", "political" ]
+            },
+            {
+               "long_name" : "New South Wales",
+               "short_name" : "NSW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Newcastle NSW, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -32.6239474,
+                  "lng" : 152.2313499
+               },
+               "southwest" : {
+                  "lat" : -33.1753553,
+                  "lng" : 151.2214849
+               }
+            },
+            "location" : {
+               "lat" : -32.926689,
+               "lng" : 151.7789205
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -32.6239474,
+                  "lng" : 152.2313499
+               },
+               "southwest" : {
+                  "lat" : -33.1753553,
+                  "lng" : 151.2214849
+               }
+            }
+         },
+         "types" : [ "colloquial_area", "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "New South Wales",
+               "short_name" : "NSW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "New South Wales, Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -28.156192,
+                  "lng" : 153.6387812
+               },
+               "southwest" : {
+                  "lat" : -37.5050318,
+                  "lng" : 140.9992123
+               }
+            },
+            "location" : {
+               "lat" : -31.2532183,
+               "lng" : 146.921099
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -28.156192,
+                  "lng" : 153.6387812
+               },
+               "southwest" : {
+                  "lat" : -37.5050318,
+                  "lng" : 140.9992123
+               }
+            }
+         },
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Australia",
+               "short_name" : "AU",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Australia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : -9.2198215,
+                  "lng" : 159.255706
+               },
+               "southwest" : {
+                  "lat" : -54.7772185,
+                  "lng" : 112.9214544
+               }
+            },
+            "location" : {
+               "lat" : -25.274398,
+               "lng" : 133.775136
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -9.2198215,
+                  "lng" : 153.6386738
+               },
+               "southwest" : {
+                  "lat" : -43.658327,
+                  "lng" : 112.9239721
+               }
+            }
+         },
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+

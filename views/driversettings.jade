@@ -1,0 +1,25 @@
+html
+    head
+        link(rel="stylesheet", href="css/style.css")
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    body
+        div.mainFrame
+            div.headerFrame
+                div.leftHeaderButton <
+                div.headerTitle!= getWho() + " with " + getPhoneNumber() + ", your  operation area"
+                div.rightHeaderButton
+            div.wrapper
+                div.scrollContent
+                    form(action='/setdriver',method='post')
+                        div.formFrame
+                            div.formText Your operation ZIPCode
+                            input(id='opzicode1',type='number',name='opzicode1', value='2026', min='2000', max='2999')
+                        div.formFrame
+                            div.formText You typically operate from
+                            input(id='starttime',type='time',name='starttime')
+                        div.formFrame
+                            div.formText to
+                            input(id='endtime',type='time',name='endtime')
+                        div.formFrame
+                            input(type='submit',value='GO',data-transition='fade')
+            div.footerFrame

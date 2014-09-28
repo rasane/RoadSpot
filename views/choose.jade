@@ -1,0 +1,19 @@
+html
+    head
+        link(rel="stylesheet", href="css/style.css")
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    body
+        div.mainFrame
+            div.headerFrame
+                div.leftHeaderButton <
+                div.headerTitle!= getPhoneNumber() + ", who are you?"
+                div.rightHeaderButton
+            div.wrapper
+                div.scrollContent
+                    div.upFrame
+                        form(action='/driver',method='post')
+                            input(type='submit',value='I am a Driver',data-transition='fade')
+                    div.downFrame 
+                        form(action='/user',method='post')
+                            input(type='submit',value='I am a User',data-transition='fade')
+            div.footerFrame

@@ -1,0 +1,23 @@
+html
+    head
+        link(rel="stylesheet", href="css/style.css")
+        script( type="text/javascript", src="/js/some-default-script.js" )
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    body
+        div.mainFrame
+            div.headerFrame
+                div.leftHeaderButton
+                div.headerTitle
+                div.rightHeaderButton
+            div.wrapper
+                div.scrollContent
+                    form(action='/signin', method='post')
+                        div.frameOne.thirdFrame
+                            div.signinText RoadSpot is your companion
+                            div.signinText to go to the right SPOT
+                            div.signinText at the right MOMENT
+                        div.frameTwo.thirdFrame
+                            div.signinText Signin with your phone
+                            input.textInput(id='phone',type='tel',value='',name='phone')
+                        div.frameThree.thirdFrame   
+                          input.goButton(type='submit',value=" ", data-transition='fade')

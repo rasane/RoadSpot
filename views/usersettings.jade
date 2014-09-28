@@ -1,0 +1,28 @@
+html
+    head
+        link(rel="stylesheet", href="css/style.css")
+        meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    body
+        div.mainFrame
+            div.headerFrame
+                div.leftHeaderButton <
+                div.headerTitle Your daily commute
+                div.rightHeaderButton
+            div.wrapper
+                div.scrollContent
+                    form(action='/setuser',method='post')
+                        div.formFrame
+                            div.formText Your home ZIPCode
+                            input(id='homecode',type='number',name='homecode', value='2026', min='2000', max='2999')
+                        div.formFrame
+                            div.formText Your work ZIPCode
+                            input(id='workcode',type='number',name='workcode', value='2007', min='2000', max='2999')
+                        div.formFrame
+                            div.formText Around what time do you leave for work?
+                            input(id='toworktime',type='time',name='toworktime')
+                        div.formFrame
+                            div.formText Around what time do you leave for home?
+                            input(id='tohometime',type='time',name='tohometime')
+                        div.formFrame
+                            input(type='submit',value='GO',data-transition='fade')
+            div.footerFrame
